@@ -1,0 +1,444 @@
+[09:50:40] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.16.0
+[09:50:40] [main/INFO]: Loading 45 mods:
+	- chunky 1.4.16
+	- fabric-api 0.102.0+1.21.1
+	   |-- fabric-api-base 0.4.42+6573ed8c6a
+	   |-- fabric-api-lookup-api-v1 1.6.68+b55973446a
+	   |-- fabric-biome-api-v1 13.0.29+5bd9f1bc6a
+	   |-- fabric-block-api-v1 1.0.22+0af3f5a76a
+	   |-- fabric-block-view-api-v2 1.0.10+6573ed8c6a
+	   |-- fabric-blockrenderlayer-v1 1.1.52+0af3f5a76a
+	   |-- fabric-client-tags-api-v1 1.1.15+6573ed8c6a
+	   |-- fabric-command-api-v1 1.2.49+f71b366f6a
+	   |-- fabric-command-api-v2 2.2.28+6ced4dd96a
+	   |-- fabric-commands-v0 0.2.66+df3654b36a
+	   |-- fabric-content-registries-v0 8.0.16+b55973446a
+	   |-- fabric-convention-tags-v1 2.0.19+7f945d5b6a
+	   |-- fabric-convention-tags-v2 2.5.0+c5e2b5c66a
+	   |-- fabric-crash-report-info-v1 0.2.29+0af3f5a76a
+	   |-- fabric-data-attachment-api-v1 1.1.27+1daea2156a
+	   |-- fabric-data-generation-api-v1 20.2.16+16c4ae256a
+	   |-- fabric-dimensions-v1 4.0.0+6fc22b996a
+	   |-- fabric-entity-events-v1 1.6.12+6fc22b996a
+	   |-- fabric-events-interaction-v0 0.7.12+ba9dae066a
+	   |-- fabric-game-rule-api-v1 1.0.53+6ced4dd96a
+	   |-- fabric-item-api-v1 11.0.0+afdfc9216a
+	   |-- fabric-item-group-api-v1 4.1.4+780172706a
+	   |-- fabric-key-binding-api-v1 1.0.47+0af3f5a76a
+	   |-- fabric-keybindings-v0 0.2.45+df3654b36a
+	   |-- fabric-lifecycle-events-v1 2.3.12+6c1df3606a
+	   |-- fabric-loot-api-v2 3.0.14+3f89f5a56a
+	   |-- fabric-loot-api-v3 1.0.2+3f89f5a56a
+	   |-- fabric-message-api-v1 6.0.13+6573ed8c6a
+	   |-- fabric-model-loading-api-v1 2.0.0+fe474d6b6a
+	   |-- fabric-networking-api-v1 4.2.2+60c3209b6a
+	   |-- fabric-object-builder-api-v1 15.2.0+40875a936a
+	   |-- fabric-particles-v1 4.0.2+6573ed8c6a
+	   |-- fabric-recipe-api-v1 5.0.12+650897126a
+	   |-- fabric-registry-sync-v0 5.1.2+60c3209b6a
+	   |-- fabric-renderer-api-v1 3.4.0+c705a49c6a
+	   |-- fabric-renderer-indigo 1.7.0+c705a49c6a
+	   |-- fabric-renderer-registries-v1 3.2.68+df3654b36a
+	   |-- fabric-rendering-data-attachment-v1 0.3.48+73761d2e6a
+	   |-- fabric-rendering-fluids-v1 3.1.6+1daea2156a
+	   |-- fabric-rendering-v0 1.1.71+df3654b36a
+	   |-- fabric-rendering-v1 5.0.5+df16efd06a
+	   |-- fabric-resource-conditions-api-v1 4.3.0+8dc279b16a
+	   |-- fabric-resource-loader-v0 1.3.0+565991296a
+	   |-- fabric-screen-api-v1 2.0.24+b55973446a
+	   |-- fabric-screen-handler-api-v1 1.3.86+b55973446a
+	   |-- fabric-sound-api-v1 1.0.23+6573ed8c6a
+	   |-- fabric-transfer-api-v1 5.1.16+3dccd3436a
+	   \-- fabric-transitive-access-wideners-v1 6.1.0+1daea2156a
+	- fabricloader 0.16.0
+	   \-- mixinextras 0.4.0
+	- ferritecore 7.0.0
+	- java 21
+	- lithium 0.13.0
+	- minecraft 1.21.1
+	- modernfix 5.19.3+mc1.21.1
+[09:50:40] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Emil/Documents/mc_server/libraries/net/fabricmc/sponge-mixin/0.15.0+mixin.0.8.7/sponge-mixin-0.15.0+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[09:50:40] [main/INFO]: Compatibility level set to JAVA_17
+[09:50:40] [main/INFO]: Compatibility level set to JAVA_21
+[09:50:40] [main/INFO]: Loaded configuration file for Lithium: 144 options available, 1 override(s) found
+[09:50:41] [main/INFO]: Loaded configuration file for ModernFix 5.19.3+mc1.21.1: 54 options available, 0 override(s) found
+[09:50:41] [main/INFO]: Applying Nashorn fix
+[09:50:41] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[09:50:41] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.0).
+[09:50:45] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[09:50:45] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
+[09:50:45] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[09:50:45] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[09:50:49] [main/INFO]: Vanilla bootstrap took 6115 milliseconds
+[09:50:50] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[09:50:52] [main/INFO]: Loaded 1290 recipes
+[09:50:53] [main/INFO]: Loaded 1399 advancements
+[09:50:53] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 2.897 ms
+[09:50:53] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[09:50:53] [Server thread/INFO]: Loading properties
+[09:50:53] [Server thread/INFO]: Default game type: SURVIVAL
+[09:50:53] [Server thread/INFO]: Generating keypair
+[09:50:53] [Server thread/INFO]: Starting Minecraft server on *:25565
+[09:50:53] [Server thread/INFO]: Using default channel type
+[09:50:53] [Server thread/INFO]: Preparing level "world"
+[09:50:54] [Server thread/WARN]: Method overwrite conflict for removeIf in modernfix-common.mixins.json:bugfix.paper_chunk_patches.SortedArraySetMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.collections.chunk_tickets.SortedArraySetMixin. Skipping method.
+[09:50:54] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[09:50:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[09:50:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[09:50:55] [Server thread/INFO]: Time elapsed: 922 ms
+[09:50:55] [Server thread/INFO]: Done (1.384s)! For help, type "help"
+[09:50:55] [Server thread/WARN]: Dedicated server took 16.59 seconds to load
+[09:50:57] [User Authenticator #1/INFO]: UUID of player Emix118 is 78b9240f-f7f6-4b0f-a98d-1fc588e902af
+[09:50:57] [Server thread/INFO]: Emix118[/127.0.0.1:59324] logged in with entity id 19 at (0.5, 128.3686892777132, 0.5)
+[09:50:57] [Server thread/INFO]: Emix118 joined the game
+[09:51:53] [IO-Worker-5/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 547 chunks (0.87%), ETA: 0:00:13, Rate: 4675.2 cps, Current: 21, 21
+[09:51:54] [IO-Worker-5/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 6905 chunks (10.96%), ETA: 0:00:09, Rate: 6176.2 cps, Current: -2, 50
+[09:51:55] [IO-Worker-3/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 12807 chunks (20.33%), ETA: 0:00:08, Rate: 6043.9 cps, Current: 81, -45
+[09:51:56] [IO-Worker-5/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 18770 chunks (29.79%), ETA: 0:00:07, Rate: 6016.0 cps, Current: -63, 28
+[09:51:57] [IO-Worker-5/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 24990 chunks (39.67%), ETA: 0:00:06, Rate: 6055.2 cps, Current: 74, 93
+[09:51:58] [IO-Worker-3/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 30844 chunks (48.96%), ETA: 0:00:05, Rate: 6014.8 cps, Current: 109, -69
+[09:51:59] [IO-Worker-3/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 36730 chunks (58.30%), ETA: 0:00:04, Rate: 5992.8 cps, Current: -93, -82
+[09:52:00] [IO-Worker-5/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 42615 chunks (67.64%), ETA: 0:00:03, Rate: 5976.9 cps, Current: -68, 66
+[09:52:01] [IO-Worker-3/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 48250 chunks (76.59%), ETA: 0:00:02, Rate: 5934.1 cps, Current: 91, 111
+[09:52:02] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 50411 chunks (80.02%), ETA: 0:00:02, Rate: 5301.4 cps, Current: 72, -101
+[09:52:05] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 50461 chunks (80.10%), ETA: 0:00:03, Rate: 4092.9 cps, Current: 74, -108
+[09:52:06] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 50527 chunks (80.20%), ETA: 0:00:03, Rate: 3790.5 cps, Current: 76, -103
+[09:52:07] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 50581 chunks (80.29%), ETA: 0:00:03, Rate: 3517.5 cps, Current: 78, -105
+[09:52:08] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 50653 chunks (80.40%), ETA: 0:00:03, Rate: 3292.4 cps, Current: 81, -120
+[09:52:09] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 50735 chunks (80.53%), ETA: 0:00:04, Rate: 3060.8 cps, Current: 84, -125
+[09:52:11] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 50793 chunks (80.62%), ETA: 0:00:04, Rate: 2786.5 cps, Current: 86, -114
+[09:52:12] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 50874 chunks (80.75%), ETA: 0:00:04, Rate: 2632.1 cps, Current: 88, -104
+[09:52:13] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 50976 chunks (80.91%), ETA: 0:00:04, Rate: 2507.6 cps, Current: 92, -116
+[09:52:16] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 51083 chunks (81.08%), ETA: 0:00:05, Rate: 2166.6 cps, Current: 32, -118
+[09:52:17] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 51156 chunks (81.20%), ETA: 0:00:05, Rate: 2080.7 cps, Current: 34, -110
+[09:52:18] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 51228 chunks (81.31%), ETA: 0:00:05, Rate: 1998.5 cps, Current: 37, -111
+[09:52:19] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 51322 chunks (81.46%), ETA: 0:00:06, Rate: 1926.8 cps, Current: 40, -113
+[09:52:20] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 51414 chunks (81.61%), ETA: 0:00:06, Rate: 1857.5 cps, Current: 43, -113
+[09:52:21] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 51489 chunks (81.73%), ETA: 0:00:06, Rate: 1792.9 cps, Current: 46, -125
+[09:52:22] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 51568 chunks (81.85%), ETA: 0:00:06, Rate: 1734.6 cps, Current: 48, -102
+[09:52:23] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 51650 chunks (81.98%), ETA: 0:00:07, Rate: 1525.8 cps, Current: 51, -108
+[09:52:25] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 51735 chunks (82.12%), ETA: 0:00:08, Rate: 1327.5 cps, Current: 54, -111
+[09:52:26] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 51821 chunks (82.25%), ETA: 0:00:09, Rate: 1129.6 cps, Current: 57, -114
+[09:52:29] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 52011 chunks (82.56%), ETA: 0:00:31, Rate: 344.4 cps, Current: 0, -114
+[09:52:30] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 52111 chunks (82.71%), ETA: 0:01:09, Rate: 156.4 cps, Current: 3, -112
+[09:52:31] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 52185 chunks (82.83%), ETA: 0:02:57, Rate: 60.9 cps, Current: 6, -118
+[09:52:32] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 52243 chunks (82.92%), ETA: 0:02:45, Rate: 64.9 cps, Current: 8, -116
+[09:52:34] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 52316 chunks (83.04%), ETA: 0:02:44, Rate: 65.1 cps, Current: 10, -116
+[09:52:35] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 52400 chunks (83.17%), ETA: 0:02:42, Rate: 65.2 cps, Current: 13, -114
+[09:52:36] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 52486 chunks (83.31%), ETA: 0:02:39, Rate: 65.9 cps, Current: 16, -118
+[09:52:37] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 52528 chunks (83.38%), ETA: 0:02:39, Rate: 65.5 cps, Current: 17, -98
+[09:52:38] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 52588 chunks (83.47%), ETA: 0:02:40, Rate: 64.9 cps, Current: 20, -115
+[09:52:39] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 52678 chunks (83.61%), ETA: 0:02:37, Rate: 65.5 cps, Current: 23, -111
+[09:52:40] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 52752 chunks (83.73%), ETA: 0:02:32, Rate: 67.3 cps, Current: 26, -121
+[09:52:44] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 52939 chunks (84.03%), ETA: 0:02:30, Rate: 66.8 cps, Current: -32, -119
+[09:52:45] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 52992 chunks (84.11%), ETA: 0:02:31, Rate: 66.1 cps, Current: -30, -125
+[09:52:46] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 53042 chunks (84.19%), ETA: 0:02:34, Rate: 64.6 cps, Current: -29, -109
+[09:52:47] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 53137 chunks (84.34%), ETA: 0:02:30, Rate: 65.5 cps, Current: -26, -97
+[09:52:49] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 53192 chunks (84.43%), ETA: 0:02:33, Rate: 64.0 cps, Current: -24, -97
+[09:52:50] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 53299 chunks (84.60%), ETA: 0:02:30, Rate: 64.5 cps, Current: -20, -115
+[09:52:51] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 53383 chunks (84.73%), ETA: 0:02:28, Rate: 64.9 cps, Current: -17, -114
+[09:52:52] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 53461 chunks (84.86%), ETA: 0:02:27, Rate: 64.5 cps, Current: -14, -123
+[09:52:53] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 53549 chunks (85.00%), ETA: 0:02:25, Rate: 64.7 cps, Current: -11, -125
+[09:52:54] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 53648 chunks (85.15%), ETA: 0:02:23, Rate: 65.4 cps, Current: -8, -112
+[09:52:55] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 53714 chunks (85.26%), ETA: 0:02:23, Rate: 64.5 cps, Current: -6, -106
+[09:52:58] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 53867 chunks (85.50%), ETA: 0:02:24, Rate: 63.3 cps, Current: -64, -125
+[09:53:00] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 53941 chunks (85.62%), ETA: 0:02:25, Rate: 62.3 cps, Current: -62, -109
+[09:53:01] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 54022 chunks (85.75%), ETA: 0:02:22, Rate: 62.8 cps, Current: -59, -107
+[09:53:02] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 54089 chunks (85.85%), ETA: 0:02:20, Rate: 63.5 cps, Current: -57, -108
+[09:53:03] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 54176 chunks (85.99%), ETA: 0:02:17, Rate: 64.0 cps, Current: -54, -110
+[09:53:04] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 54263 chunks (86.13%), ETA: 0:02:15, Rate: 64.5 cps, Current: -51, -106
+[09:53:05] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 54313 chunks (86.21%), ETA: 0:02:15, Rate: 63.9 cps, Current: -49, -104
+[09:53:06] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 54404 chunks (86.35%), ETA: 0:02:13, Rate: 64.5 cps, Current: -46, -107
+[09:53:07] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 54495 chunks (86.50%), ETA: 0:02:09, Rate: 65.6 cps, Current: -43, -108
+[09:53:08] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 54573 chunks (86.62%), ETA: 0:02:09, Rate: 65.2 cps, Current: -40, -106
+[09:53:09] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 54647 chunks (86.74%), ETA: 0:02:07, Rate: 65.4 cps, Current: -37, -125
+[09:53:12] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 54795 chunks (86.97%), ETA: 0:02:02, Rate: 67.2 cps, Current: -96, -122
+[09:53:12] [Server thread/INFO]: [Emix118: Set the weather to clear]
+[09:53:13] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 54873 chunks (87.10%), ETA: 0:02:00, Rate: 67.5 cps, Current: -94, -107
+[09:53:14] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 54971 chunks (87.25%), ETA: 0:01:57, Rate: 68.4 cps, Current: -90, -123
+[09:53:15] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 55057 chunks (87.39%), ETA: 0:01:54, Rate: 69.4 cps, Current: -87, -113
+[09:53:16] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 55143 chunks (87.53%), ETA: 0:01:49, Rate: 71.5 cps, Current: -84, -122
+[09:53:17] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 55229 chunks (87.66%), ETA: 0:01:49, Rate: 71.2 cps, Current: -82, -97
+[09:53:18] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 55300 chunks (87.78%), ETA: 0:01:47, Rate: 71.9 cps, Current: -79, -110
+[09:53:19] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 55390 chunks (87.92%), ETA: 0:01:46, Rate: 71.3 cps, Current: -76, -107
+[09:53:20] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 55482 chunks (88.07%), ETA: 0:01:45, Rate: 71.2 cps, Current: -73, -97
+[09:53:21] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 55567 chunks (88.20%), ETA: 0:01:43, Rate: 71.7 cps, Current: -70, -109
+[09:53:25] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 55723 chunks (88.45%), ETA: 0:01:48, Rate: 67.4 cps, Current: -124, -123
+[09:53:26] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 55790 chunks (88.55%), ETA: 0:01:42, Rate: 70.5 cps, Current: -123, -108
+[09:53:27] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 55851 chunks (88.65%), ETA: 0:01:41, Rate: 70.1 cps, Current: -121, -101
+[09:53:27] [Server thread/INFO]: [Emix118: Set the weather to clear]
+[09:53:28] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 55941 chunks (88.79%), ETA: 0:01:39, Rate: 70.8 cps, Current: -118, -112
+[09:53:29] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 56008 chunks (88.90%), ETA: 0:01:39, Rate: 70.6 cps, Current: -115, -125
+[09:53:30] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 56104 chunks (89.05%), ETA: 0:01:37, Rate: 71.0 cps, Current: -112, -117
+[09:53:31] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 56194 chunks (89.20%), ETA: 0:01:34, Rate: 71.8 cps, Current: -109, -118
+[09:53:32] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 56289 chunks (89.35%), ETA: 0:01:33, Rate: 72.1 cps, Current: -106, -106
+[09:53:33] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 56364 chunks (89.47%), ETA: 0:01:32, Rate: 71.9 cps, Current: -103, -122
+[09:53:38] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 56564 chunks (89.78%), ETA: 0:01:38, Rate: 65.5 cps, Current: -125, -87
+[09:53:39] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 56633 chunks (89.89%), ETA: 0:01:35, Rate: 66.7 cps, Current: -123, -93
+[09:53:40] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 56682 chunks (89.97%), ETA: 0:01:35, Rate: 65.9 cps, Current: -122, -77
+[09:53:41] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 56765 chunks (90.10%), ETA: 0:01:33, Rate: 66.5 cps, Current: -119, -88
+[09:53:42] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 56835 chunks (90.21%), ETA: 0:01:33, Rate: 66.2 cps, Current: -117, -74
+[09:53:43] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 56919 chunks (90.35%), ETA: 0:01:32, Rate: 65.7 cps, Current: -114, -92
+[09:53:45] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 56996 chunks (90.47%), ETA: 0:01:31, Rate: 65.3 cps, Current: -112, -75
+[09:53:46] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 57070 chunks (90.59%), ETA: 0:01:31, Rate: 65.0 cps, Current: -110, -66
+[09:53:47] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 57154 chunks (90.72%), ETA: 0:01:30, Rate: 64.9 cps, Current: -107, -84
+[09:53:48] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 57212 chunks (90.81%), ETA: 0:01:29, Rate: 64.4 cps, Current: -106, -69
+[09:53:49] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 57303 chunks (90.96%), ETA: 0:01:28, Rate: 64.4 cps, Current: -102, -92
+[09:53:52] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 57492 chunks (91.26%), ETA: 0:01:25, Rate: 64.1 cps, Current: -125, -64
+[09:53:53] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 57541 chunks (91.33%), ETA: 0:01:25, Rate: 63.6 cps, Current: -125, -33
+[09:53:54] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 57602 chunks (91.43%), ETA: 0:01:25, Rate: 63.5 cps, Current: -123, -36
+[09:53:55] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 57677 chunks (91.55%), ETA: 0:01:23, Rate: 63.7 cps, Current: -120, -39
+[09:53:56] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 57756 chunks (91.67%), ETA: 0:01:21, Rate: 64.3 cps, Current: -117, -56
+[09:53:57] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 57842 chunks (91.81%), ETA: 0:01:20, Rate: 64.0 cps, Current: -115, -34
+[09:53:59] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 57920 chunks (91.94%), ETA: 0:01:18, Rate: 64.4 cps, Current: -112, -50
+[09:54:00] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 58000 chunks (92.06%), ETA: 0:01:18, Rate: 63.6 cps, Current: -110, -36
+[09:54:01] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 58083 chunks (92.19%), ETA: 0:01:19, Rate: 61.9 cps, Current: -107, -41
+[09:54:02] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 58130 chunks (92.27%), ETA: 0:01:19, Rate: 61.4 cps, Current: -106, -34
+[09:54:03] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 58214 chunks (92.40%), ETA: 0:01:11, Rate: 66.8 cps, Current: -103, -46
+[09:54:04] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 58299 chunks (92.54%), ETA: 0:01:09, Rate: 67.5 cps, Current: -100, -54
+[09:54:06] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 58420 chunks (92.73%), ETA: 0:01:09, Rate: 65.9 cps, Current: -125, -32
+[09:54:07] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 58499 chunks (92.85%), ETA: 0:01:07, Rate: 66.2 cps, Current: -123, -11
+[09:54:08] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 58573 chunks (92.97%), ETA: 0:01:06, Rate: 66.5 cps, Current: -121, -5
+[09:54:10] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 58672 chunks (93.13%), ETA: 0:01:03, Rate: 67.9 cps, Current: -118, -4
+[09:54:11] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 58758 chunks (93.27%), ETA: 0:01:02, Rate: 68.0 cps, Current: -115, -14
+[09:54:12] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 58851 chunks (93.41%), ETA: 0:01:00, Rate: 68.8 cps, Current: -112, -22
+[09:54:13] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 58943 chunks (93.56%), ETA: 0:00:58, Rate: 69.3 cps, Current: -109, -21
+[09:54:14] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 59019 chunks (93.68%), ETA: 0:00:57, Rate: 69.4 cps, Current: -107, -7
+[09:54:15] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 59112 chunks (93.83%), ETA: 0:00:55, Rate: 70.0 cps, Current: -104, -2
+[09:54:16] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 59226 chunks (94.01%), ETA: 0:00:53, Rate: 71.0 cps, Current: -100, -23
+[09:54:18] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 59353 chunks (94.21%), ETA: 0:00:52, Rate: 70.1 cps, Current: -125, 5
+[09:54:19] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 59357 chunks (94.22%), ETA: 0:00:52, Rate: 70.0 cps, Current: -125, 9
+[09:54:20] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 59438 chunks (94.34%), ETA: 0:00:50, Rate: 70.4 cps, Current: -123, 23
+[09:54:21] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 59516 chunks (94.47%), ETA: 0:00:49, Rate: 70.6 cps, Current: -120, 12
+[09:54:22] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 59594 chunks (94.59%), ETA: 0:00:48, Rate: 70.8 cps, Current: -118, 23
+[09:54:23] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 59652 chunks (94.68%), ETA: 0:00:47, Rate: 71.1 cps, Current: -116, 21
+[09:54:24] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 59743 chunks (94.83%), ETA: 0:00:45, Rate: 72.1 cps, Current: -113, 7
+[09:54:25] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 59823 chunks (94.96%), ETA: 0:00:43, Rate: 72.3 cps, Current: -111, 27
+[09:54:26] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 59883 chunks (95.05%), ETA: 0:00:43, Rate: 71.6 cps, Current: -109, 28
+[09:54:27] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 59956 chunks (95.17%), ETA: 0:00:42, Rate: 71.3 cps, Current: -106, 6
+[09:54:28] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 60045 chunks (95.31%), ETA: 0:00:41, Rate: 71.5 cps, Current: -104, 31
+[09:54:29] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 60105 chunks (95.40%), ETA: 0:00:40, Rate: 71.2 cps, Current: -102, 25
+[09:54:31] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 60276 chunks (95.67%), ETA: 0:00:36, Rate: 73.7 cps, Current: -125, 34
+[09:54:32] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 60307 chunks (95.72%), ETA: 0:00:37, Rate: 71.9 cps, Current: -125, 57
+[09:54:33] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 60407 chunks (95.88%), ETA: 0:00:35, Rate: 72.3 cps, Current: -121, 35
+[09:54:34] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 60516 chunks (96.06%), ETA: 0:00:32, Rate: 75.5 cps, Current: -118, 53
+[09:54:35] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 60620 chunks (96.22%), ETA: 0:00:31, Rate: 76.3 cps, Current: -114, 34
+[09:54:36] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 60723 chunks (96.38%), ETA: 0:00:29, Rate: 77.1 cps, Current: -111, 35
+[09:54:37] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 60836 chunks (96.56%), ETA: 0:00:27, Rate: 78.3 cps, Current: -108, 47
+[09:54:38] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 60909 chunks (96.68%), ETA: 0:00:26, Rate: 78.2 cps, Current: -106, 56
+[09:54:39] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 61017 chunks (96.85%), ETA: 0:00:25, Rate: 78.5 cps, Current: -102, 39
+[09:54:41] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 61167 chunks (97.09%), ETA: 0:00:22, Rate: 80.7 cps, Current: -98, 59
+[09:54:42] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 61205 chunks (97.15%), ETA: 0:00:22, Rate: 78.7 cps, Current: -125, 64
+[09:54:43] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 61223 chunks (97.18%), ETA: 0:00:23, Rate: 75.5 cps, Current: -125, 83
+[09:54:44] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 61319 chunks (97.33%), ETA: 0:00:22, Rate: 75.7 cps, Current: -122, 80
+[09:54:45] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 61408 chunks (97.47%), ETA: 0:00:21, Rate: 74.8 cps, Current: -119, 80
+[09:54:46] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 61492 chunks (97.60%), ETA: 0:00:19, Rate: 76.0 cps, Current: -116, 81
+[09:54:47] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 61601 chunks (97.78%), ETA: 0:00:18, Rate: 76.5 cps, Current: -113, 77
+[09:54:48] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 61706 chunks (97.94%), ETA: 0:00:16, Rate: 80.1 cps, Current: -110, 88
+[09:54:49] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 61784 chunks (98.07%), ETA: 0:00:15, Rate: 79.8 cps, Current: -107, 81
+[09:54:50] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 61858 chunks (98.19%), ETA: 0:00:14, Rate: 79.7 cps, Current: -104, 69
+[09:54:51] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 61960 chunks (98.35%), ETA: 0:00:12, Rate: 80.6 cps, Current: -102, 94
+[09:54:54] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 62132 chunks (98.62%), ETA: 0:00:10, Rate: 79.8 cps, Current: -125, 96
+[09:54:55] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 62205 chunks (98.74%), ETA: 0:00:09, Rate: 80.0 cps, Current: -122, 100
+[09:54:56] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 62276 chunks (98.85%), ETA: 0:00:09, Rate: 80.0 cps, Current: -121, 111
+[09:54:57] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 62356 chunks (98.98%), ETA: 0:00:08, Rate: 79.8 cps, Current: -118, 119
+[09:54:58] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 62454 chunks (99.13%), ETA: 0:00:06, Rate: 81.3 cps, Current: -115, 118
+[09:54:59] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 62533 chunks (99.26%), ETA: 0:00:05, Rate: 80.1 cps, Current: -112, 108
+[09:55:00] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 62627 chunks (99.41%), ETA: 0:00:04, Rate: 80.4 cps, Current: -109, 112
+[09:55:01] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 62721 chunks (99.56%), ETA: 0:00:03, Rate: 82.5 cps, Current: -106, 115
+[09:55:02] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 62799 chunks (99.68%), ETA: 0:00:02, Rate: 81.8 cps, Current: -103, 104
+[09:55:03] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 62891 chunks (99.83%), ETA: 0:00:01, Rate: 81.3 cps, Current: -100, 115
+[09:55:04] [Server thread/INFO]: [Chunky] Task finished for minecraft:overworld. Processed: 63001 chunks (100.00%), Total time: 0:03:10
+[09:56:47] [Server thread/INFO]: Emix118 has made the advancement [We Need to Go Deeper]
+[09:56:47] [Server thread/INFO]: [Emix118: Teleported Emix118 to 0.500000, 129.112643, 0.500000]
+[09:57:02] [Server thread/INFO]: [Emix118: Teleported Emix118 to 0.500000, 82.993310, 0.500000]
+[09:57:51] [Server thread/INFO]: [Emix118: Set the world border to 4000.0 block(s) wide]
+[10:00:08] [Server thread/INFO]: [Emix118: Set the world border to 13000.0 block(s) wide]
+[10:00:37] [Chunky-minecraft:overworld Thread/INFO]: [Chunky] Task finished for minecraft:overworld. Processed: 16129 chunks (100.00%), Total time: 0:00:00
+[10:01:03] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 126 chunks (0.78%), ETA: 0:01:29, Rate: 178.0 cps, Current: 13, 5
+[10:01:05] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 265 chunks (1.64%), ETA: 0:01:49, Rate: 145.3 cps, Current: 1, 17
+[10:01:06] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 338 chunks (2.10%), ETA: 0:02:13, Rate: 118.3 cps, Current: 2, 30
+[10:01:07] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 412 chunks (2.55%), ETA: 0:02:30, Rate: 104.6 cps, Current: 8, 31
+[10:01:08] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 510 chunks (3.16%), ETA: 0:02:34, Rate: 100.8 cps, Current: 15, 16
+[10:01:09] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 577 chunks (3.58%), ETA: 0:02:47, Rate: 93.0 cps, Current: 16, 24
+[10:01:10] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 648 chunks (4.02%), ETA: 0:02:52, Rate: 89.8 cps, Current: 24, 29
+[10:01:11] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 723 chunks (4.48%), ETA: 0:02:55, Rate: 87.9 cps, Current: 29, 22
+[10:01:12] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 772 chunks (4.79%), ETA: 0:03:05, Rate: 82.8 cps, Current: 31, 15
+[10:01:13] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 834 chunks (5.17%), ETA: 0:03:10, Rate: 80.4 cps, Current: 22, 12
+[10:01:14] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 939 chunks (5.82%), ETA: 0:03:04, Rate: 82.4 cps, Current: 17, 1
+[10:01:15] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 1020 chunks (6.32%), ETA: 0:03:03, Rate: 82.3 cps, Current: 30, 1
+[10:01:16] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 1094 chunks (6.78%), ETA: 0:03:04, Rate: 81.5 cps, Current: 41, 0
+[10:01:17] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 1150 chunks (7.13%), ETA: 0:03:08, Rate: 79.6 cps, Current: 46, 7
+[10:01:18] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 1183 chunks (7.33%), ETA: 0:03:16, Rate: 75.9 cps, Current: 44, 11
+[10:01:19] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 1333 chunks (8.26%), ETA: 0:03:04, Rate: 80.4 cps, Current: 34, 23
+[10:01:21] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 1422 chunks (8.82%), ETA: 0:03:05, Rate: 79.4 cps, Current: 40, 27
+[10:01:22] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 1533 chunks (9.50%), ETA: 0:03:00, Rate: 80.9 cps, Current: 47, 17
+[10:01:23] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 1577 chunks (9.78%), ETA: 0:03:04, Rate: 78.8 cps, Current: 53, 22
+[10:01:24] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 1641 chunks (10.17%), ETA: 0:03:05, Rate: 77.9 cps, Current: 55, 24
+[10:01:25] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 1709 chunks (10.60%), ETA: 0:03:06, Rate: 77.3 cps, Current: 61, 30
+[10:01:26] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 1791 chunks (11.10%), ETA: 0:03:05, Rate: 77.4 cps, Current: 62, 14
+[10:01:27] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 1962 chunks (12.16%), ETA: 0:02:54, Rate: 81.2 cps, Current: 53, 3
+[10:01:28] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 2042 chunks (12.66%), ETA: 0:02:53, Rate: 81.1 cps, Current: 61, 0
+[10:01:29] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 2081 chunks (12.90%), ETA: 0:02:56, Rate: 79.5 cps, Current: 36, -25
+[10:01:30] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 2134 chunks (13.23%), ETA: 0:02:58, Rate: 78.5 cps, Current: 45, -30
+[10:01:31] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 2199 chunks (13.63%), ETA: 0:02:58, Rate: 77.9 cps, Current: 43, -21
+[10:01:32] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 2290 chunks (14.20%), ETA: 0:02:57, Rate: 78.0 cps, Current: 32, -20
+[10:01:33] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 2375 chunks (14.73%), ETA: 0:03:07, Rate: 73.4 cps, Current: 34, -6
+[10:01:34] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 2489 chunks (15.43%), ETA: 0:03:03, Rate: 74.4 cps, Current: 44, -7
+[10:01:35] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 2580 chunks (16.00%), ETA: 0:02:59, Rate: 75.4 cps, Current: 54, -15
+[10:01:36] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 2702 chunks (16.75%), ETA: 0:02:52, Rate: 77.6 cps, Current: 58, -5
+[10:01:37] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 2817 chunks (17.47%), ETA: 0:02:48, Rate: 78.9 cps, Current: 60, -17
+[10:01:38] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 2930 chunks (18.17%), ETA: 0:02:43, Rate: 80.8 cps, Current: 49, -23
+[10:01:40] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 3004 chunks (18.62%), ETA: 0:02:43, Rate: 80.4 cps, Current: 56, -27
+[10:01:41] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 3063 chunks (18.99%), ETA: 0:02:43, Rate: 79.9 cps, Current: 60, -32
+[10:01:42] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 3114 chunks (19.31%), ETA: 0:02:40, Rate: 80.9 cps, Current: 6, -25
+[10:01:43] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 3142 chunks (19.48%), ETA: 0:02:44, Rate: 79.0 cps, Current: 9, -31
+[10:01:44] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 3224 chunks (19.99%), ETA: 0:02:47, Rate: 77.1 cps, Current: 12, -21
+[10:01:45] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 3469 chunks (21.51%), ETA: 0:02:32, Rate: 82.9 cps, Current: 6, -16
+[10:01:46] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 3575 chunks (22.17%), ETA: 0:02:29, Rate: 83.8 cps, Current: 13, -13
+[10:01:47] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 3651 chunks (22.64%), ETA: 0:02:27, Rate: 84.5 cps, Current: 17, -8
+[10:01:48] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 3785 chunks (23.47%), ETA: 0:02:20, Rate: 87.7 cps, Current: 29, -12
+[10:01:49] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 3907 chunks (24.22%), ETA: 0:02:21, Rate: 86.7 cps, Current: 17, -17
+[10:01:50] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 3997 chunks (24.78%), ETA: 0:02:18, Rate: 87.5 cps, Current: 16, -28
+[10:01:51] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 4097 chunks (25.40%), ETA: 0:02:19, Rate: 86.4 cps, Current: -29, -29
+[10:01:52] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 4151 chunks (25.74%), ETA: 0:02:18, Rate: 86.6 cps, Current: -24, -31
+[10:01:54] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 4234 chunks (26.25%), ETA: 0:02:16, Rate: 87.4 cps, Current: -22, -23
+[10:01:55] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 4327 chunks (26.83%), ETA: 0:02:13, Rate: 88.3 cps, Current: -30, -21
+[10:01:56] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 4391 chunks (27.22%), ETA: 0:02:13, Rate: 87.8 cps, Current: -30, -12
+[10:01:57] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 4436 chunks (27.50%), ETA: 0:02:20, Rate: 83.4 cps, Current: -31, -2
+[10:01:58] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 4495 chunks (27.87%), ETA: 0:02:20, Rate: 82.7 cps, Current: -19, -2
+[10:01:59] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 4802 chunks (29.77%), ETA: 0:02:03, Rate: 91.7 cps, Current: -16, -7
+[10:02:00] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 4871 chunks (30.20%), ETA: 0:02:02, Rate: 92.0 cps, Current: -2, -19
+[10:02:01] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 4993 chunks (30.96%), ETA: 0:01:58, Rate: 93.9 cps, Current: -10, -25
+[10:02:02] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 5093 chunks (31.58%), ETA: 0:01:56, Rate: 94.6 cps, Current: -1, -28
+[10:02:03] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 5129 chunks (31.80%), ETA: 0:01:58, Rate: 93.0 cps, Current: -29, 2
+[10:02:04] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 5239 chunks (32.48%), ETA: 0:01:57, Rate: 92.7 cps, Current: -18, 5
+[10:02:05] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 5284 chunks (32.76%), ETA: 0:01:59, Rate: 91.0 cps, Current: -19, 14
+[10:02:06] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 5360 chunks (33.23%), ETA: 0:02:00, Rate: 89.0 cps, Current: -32, 11
+[10:02:07] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 5407 chunks (33.52%), ETA: 0:02:03, Rate: 86.9 cps, Current: -25, 17
+[10:02:08] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 5447 chunks (33.77%), ETA: 0:02:06, Rate: 84.5 cps, Current: -32, 25
+[10:02:10] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 5505 chunks (34.13%), ETA: 0:02:06, Rate: 84.0 cps, Current: -24, 25
+[10:02:11] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 5549 chunks (34.40%), ETA: 0:02:06, Rate: 83.8 cps, Current: -18, 31
+[10:02:12] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 5644 chunks (34.99%), ETA: 0:02:01, Rate: 86.2 cps, Current: -12, 17
+[10:02:13] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 5784 chunks (35.86%), ETA: 0:01:56, Rate: 88.5 cps, Current: -8, 28
+[10:02:14] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 6118 chunks (37.93%), ETA: 0:01:43, Rate: 96.6 cps, Current: -16, 7
+[10:02:15] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 6163 chunks (38.21%), ETA: 0:01:52, Rate: 88.2 cps, Current: -31, 37
+[10:02:16] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 6252 chunks (38.76%), ETA: 0:01:52, Rate: 88.2 cps, Current: -19, 38
+[10:02:17] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 6326 chunks (39.22%), ETA: 0:01:52, Rate: 87.4 cps, Current: -23, 46
+[10:02:19] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 6412 chunks (39.75%), ETA: 0:01:53, Rate: 85.4 cps, Current: -32, 50
+[10:02:20] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 6451 chunks (40.00%), ETA: 0:01:56, Rate: 83.4 cps, Current: -28, 55
+[10:02:21] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 6519 chunks (40.42%), ETA: 0:01:56, Rate: 82.4 cps, Current: -25, 56
+[10:02:22] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 6571 chunks (40.74%), ETA: 0:01:56, Rate: 82.3 cps, Current: -20, 59
+[10:02:23] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 6665 chunks (41.32%), ETA: 0:01:54, Rate: 82.6 cps, Current: -15, 50
+[10:02:24] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 6785 chunks (42.07%), ETA: 0:01:52, Rate: 83.2 cps, Current: -8, 57
+[10:02:25] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 6847 chunks (42.45%), ETA: 0:01:51, Rate: 83.2 cps, Current: -2, 57
+[10:02:26] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 6957 chunks (43.13%), ETA: 0:01:47, Rate: 85.7 cps, Current: -7, 43
+[10:02:27] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 7171 chunks (44.46%), ETA: 0:01:38, Rate: 90.8 cps, Current: 0, 34
+[10:02:28] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 7251 chunks (44.96%), ETA: 0:01:46, Rate: 83.1 cps, Current: 11, 37
+[10:02:29] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 7341 chunks (45.51%), ETA: 0:01:44, Rate: 83.8 cps, Current: 13, 46
+[10:02:30] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 7483 chunks (46.39%), ETA: 0:01:42, Rate: 84.3 cps, Current: 5, 55
+[10:02:32] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 7558 chunks (46.86%), ETA: 0:01:43, Rate: 83.0 cps, Current: 9, 58
+[10:02:33] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 7649 chunks (47.42%), ETA: 0:01:39, Rate: 84.9 cps, Current: 9, 50
+[10:02:34] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 7726 chunks (47.90%), ETA: 0:01:39, Rate: 84.1 cps, Current: 18, 54
+[10:02:35] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 7787 chunks (48.28%), ETA: 0:01:38, Rate: 84.8 cps, Current: 22, 56
+[10:02:36] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 7830 chunks (48.55%), ETA: 0:01:39, Rate: 83.8 cps, Current: 26, 60
+[10:02:37] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 7925 chunks (49.14%), ETA: 0:01:37, Rate: 84.4 cps, Current: 29, 50
+[10:02:38] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 8068 chunks (50.02%), ETA: 0:01:31, Rate: 87.9 cps, Current: 21, 39
+[10:02:39] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 8211 chunks (50.91%), ETA: 0:01:26, Rate: 91.6 cps, Current: 34, 36
+[10:02:40] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 8306 chunks (51.50%), ETA: 0:01:23, Rate: 93.4 cps, Current: 47, 36
+[10:02:41] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 8433 chunks (52.28%), ETA: 0:01:21, Rate: 94.2 cps, Current: 32, 44
+[10:02:42] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 8533 chunks (52.90%), ETA: 0:01:22, Rate: 92.5 cps, Current: 36, 57
+[10:02:43] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 8622 chunks (53.46%), ETA: 0:01:29, Rate: 84.2 cps, Current: 46, 59
+[10:02:45] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 8718 chunks (54.05%), ETA: 0:01:26, Rate: 86.1 cps, Current: 50, 48
+[10:02:46] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 8833 chunks (54.76%), ETA: 0:01:23, Rate: 87.4 cps, Current: 56, 56
+[10:02:47] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 8895 chunks (55.15%), ETA: 0:01:22, Rate: 87.2 cps, Current: 63, 57
+[10:02:48] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 8963 chunks (55.57%), ETA: 0:01:22, Rate: 86.6 cps, Current: 63, 46
+[10:02:49] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 9117 chunks (56.53%), ETA: 0:01:17, Rate: 90.8 cps, Current: 51, 36
+[10:02:50] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 9217 chunks (57.15%), ETA: 0:01:14, Rate: 92.3 cps, Current: 32, -62
+[10:02:51] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 9225 chunks (57.20%), ETA: 0:01:16, Rate: 90.6 cps, Current: 32, -55
+[10:02:52] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 9311 chunks (57.73%), ETA: 0:01:15, Rate: 90.3 cps, Current: 35, -52
+[10:02:53] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 9384 chunks (58.18%), ETA: 0:01:15, Rate: 89.0 cps, Current: 37, -55
+[10:02:54] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 9486 chunks (58.81%), ETA: 0:01:13, Rate: 90.1 cps, Current: 40, -42
+[10:02:55] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 9610 chunks (59.58%), ETA: 0:01:12, Rate: 90.5 cps, Current: 44, -34
+[10:02:56] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 9722 chunks (60.28%), ETA: 0:01:13, Rate: 87.0 cps, Current: 48, -54
+[10:02:58] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 9827 chunks (60.93%), ETA: 0:01:11, Rate: 87.5 cps, Current: 51, -42
+[10:02:59] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 9936 chunks (61.60%), ETA: 0:01:10, Rate: 88.3 cps, Current: 55, -52
+[10:03:00] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 10039 chunks (62.24%), ETA: 0:01:10, Rate: 86.7 cps, Current: 58, -47
+[10:03:01] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 10145 chunks (62.90%), ETA: 0:01:07, Rate: 88.3 cps, Current: 61, -41
+[10:03:02] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 10209 chunks (63.30%), ETA: 0:01:08, Rate: 86.7 cps, Current: 0, -60
+[10:03:03] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 10260 chunks (63.61%), ETA: 0:01:08, Rate: 85.7 cps, Current: 1, -34
+[10:03:04] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 10364 chunks (64.26%), ETA: 0:01:06, Rate: 87.1 cps, Current: 5, -62
+[10:03:05] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 10460 chunks (64.85%), ETA: 0:01:03, Rate: 89.2 cps, Current: 8, -56
+[10:03:06] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 10542 chunks (65.36%), ETA: 0:01:02, Rate: 89.6 cps, Current: 10, -33
+[10:03:08] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 10625 chunks (65.88%), ETA: 0:01:03, Rate: 86.8 cps, Current: 13, -54
+[10:03:09] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 10727 chunks (66.51%), ETA: 0:01:03, Rate: 85.4 cps, Current: 16, -39
+[10:03:10] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 10827 chunks (67.13%), ETA: 0:01:01, Rate: 85.6 cps, Current: 19, -44
+[10:03:11] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 10916 chunks (67.68%), ETA: 0:01:01, Rate: 84.5 cps, Current: 22, -42
+[10:03:12] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 10989 chunks (68.13%), ETA: 0:01:01, Rate: 83.6 cps, Current: 25, -60
+[10:03:13] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 11109 chunks (68.88%), ETA: 0:00:59, Rate: 84.5 cps, Current: 29, -62
+[10:03:14] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 11201 chunks (69.45%), ETA: 0:00:58, Rate: 83.9 cps, Current: -32, -63
+[10:03:16] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 11214 chunks (69.53%), ETA: 0:01:01, Rate: 80.0 cps, Current: -32, -51
+[10:03:17] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 11316 chunks (70.16%), ETA: 0:00:59, Rate: 81.3 cps, Current: -29, -38
+[10:03:18] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 11378 chunks (70.54%), ETA: 0:00:58, Rate: 80.6 cps, Current: -27, -40
+[10:03:19] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 11467 chunks (71.10%), ETA: 0:01:00, Rate: 77.5 cps, Current: -24, -45
+[10:03:20] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 11526 chunks (71.46%), ETA: 0:00:58, Rate: 79.0 cps, Current: -22, -33
+[10:03:21] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 11621 chunks (72.05%), ETA: 0:00:56, Rate: 79.3 cps, Current: -19, -46
+[10:03:23] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 11708 chunks (72.59%), ETA: 0:00:55, Rate: 79.4 cps, Current: -16, -53
+[10:03:24] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 11812 chunks (73.23%), ETA: 0:00:54, Rate: 79.3 cps, Current: -13, -39
+[10:03:25] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 11907 chunks (73.82%), ETA: 0:00:53, Rate: 78.2 cps, Current: -10, -40
+[10:03:26] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 11996 chunks (74.38%), ETA: 0:00:53, Rate: 77.4 cps, Current: -7, -45
+[10:03:29] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 12193 chunks (75.60%), ETA: 0:00:53, Rate: 73.8 cps, Current: -63, -62
+[10:03:30] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 12310 chunks (76.32%), ETA: 0:00:51, Rate: 74.2 cps, Current: -60, -39
+[10:03:31] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 12398 chunks (76.87%), ETA: 0:00:49, Rate: 75.4 cps, Current: -57, -44
+[10:03:32] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 12489 chunks (77.43%), ETA: 0:00:47, Rate: 77.0 cps, Current: -54, -47
+[10:03:33] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 12585 chunks (78.03%), ETA: 0:00:46, Rate: 76.7 cps, Current: -51, -43
+[10:03:34] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 12650 chunks (78.43%), ETA: 0:00:45, Rate: 76.3 cps, Current: -49, -42
+[10:03:35] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 12736 chunks (78.96%), ETA: 0:00:44, Rate: 75.9 cps, Current: -46, -47
+[10:03:36] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 12814 chunks (79.45%), ETA: 0:00:43, Rate: 76.2 cps, Current: -43, -55
+[10:03:37] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 12900 chunks (79.98%), ETA: 0:00:42, Rate: 76.5 cps, Current: -41, -38
+[10:03:38] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 12962 chunks (80.36%), ETA: 0:00:42, Rate: 75.1 cps, Current: -39, -43
+[10:03:40] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 13154 chunks (81.55%), ETA: 0:00:39, Rate: 76.0 cps, Current: -63, -32
+[10:03:41] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 13166 chunks (81.63%), ETA: 0:00:40, Rate: 74.0 cps, Current: -63, -20
+[10:03:42] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 13278 chunks (82.32%), ETA: 0:00:38, Rate: 73.6 cps, Current: -60, -4
+[10:03:43] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 13384 chunks (82.98%), ETA: 0:00:36, Rate: 75.4 cps, Current: -56, -28
+[10:03:44] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 13477 chunks (83.56%), ETA: 0:00:34, Rate: 76.0 cps, Current: -53, -30
+[10:03:45] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 13581 chunks (84.20%), ETA: 0:00:32, Rate: 79.5 cps, Current: -50, -21
+[10:03:46] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 13683 chunks (84.83%), ETA: 0:00:30, Rate: 79.6 cps, Current: -47, -18
+[10:03:47] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 13803 chunks (85.58%), ETA: 0:00:28, Rate: 82.2 cps, Current: -43, -27
+[10:03:48] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 13923 chunks (86.32%), ETA: 0:00:26, Rate: 83.8 cps, Current: -39, -31
+[10:03:50] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 14146 chunks (87.71%), ETA: 0:00:22, Rate: 87.0 cps, Current: -63, 1
+[10:03:52] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 14219 chunks (88.16%), ETA: 0:00:22, Rate: 86.8 cps, Current: -61, 8
+[10:03:53] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 14332 chunks (88.86%), ETA: 0:00:20, Rate: 87.7 cps, Current: -58, 28
+[10:03:54] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 14427 chunks (89.45%), ETA: 0:00:19, Rate: 87.8 cps, Current: -55, 25
+[10:03:55] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 14561 chunks (90.28%), ETA: 0:00:17, Rate: 89.2 cps, Current: -51, 31
+[10:03:56] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 14679 chunks (91.01%), ETA: 0:00:16, Rate: 90.2 cps, Current: -47, 21
+[10:03:57] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 14785 chunks (91.67%), ETA: 0:00:14, Rate: 93.7 cps, Current: -44, 29
+[10:03:58] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 14851 chunks (92.08%), ETA: 0:00:13, Rate: 92.6 cps, Current: -41, 1
+[10:03:59] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 14935 chunks (92.60%), ETA: 0:00:12, Rate: 92.3 cps, Current: -39, 20
+[10:04:00] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 15094 chunks (93.58%), ETA: 0:00:11, Rate: 93.6 cps, Current: -34, 20
+[10:04:01] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 15144 chunks (93.89%), ETA: 0:00:10, Rate: 91.2 cps, Current: -63, 38
+[10:04:02] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 15232 chunks (94.44%), ETA: 0:00:09, Rate: 91.1 cps, Current: -61, 60
+[10:04:03] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 15331 chunks (95.05%), ETA: 0:00:08, Rate: 92.3 cps, Current: -57, 33
+[10:04:04] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 15445 chunks (95.76%), ETA: 0:00:07, Rate: 93.2 cps, Current: -54, 48
+[10:04:05] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 15541 chunks (96.35%), ETA: 0:00:06, Rate: 94.0 cps, Current: -51, 52
+[10:04:06] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 15647 chunks (97.01%), ETA: 0:00:05, Rate: 94.3 cps, Current: -47, 35
+[10:04:08] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 15746 chunks (97.63%), ETA: 0:00:04, Rate: 95.5 cps, Current: -44, 32
+[10:04:09] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 15834 chunks (98.17%), ETA: 0:00:03, Rate: 94.4 cps, Current: -42, 60
+[10:04:10] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 15924 chunks (98.73%), ETA: 0:00:02, Rate: 94.0 cps, Current: -39, 48
+[10:04:11] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 16062 chunks (99.58%), ETA: 0:00:00, Rate: 98.5 cps, Current: -35, 60
+[10:04:11] [Server thread/INFO]: [Chunky] Task finished for minecraft:the_nether. Processed: 16129 chunks (100.00%), Total time: 0:03:07
+[16:00:47] [Server thread/INFO]: [Emix118: Teleported Emix118 to 0.500000, 82.993310, 0.500000]
+[16:01:14] [Server thread/INFO]: [Emix118: Saved the game]
+[16:01:16] [Server thread/INFO]: Emix118 lost connection: Disconnected
+[16:01:16] [Server thread/INFO]: Emix118 left the game
+[16:01:36] [Server thread/INFO]: Stopping the server
+[16:01:36] [Server thread/INFO]: Stopping server
+[16:01:36] [Server thread/INFO]: Saving players
+[16:01:36] [Server thread/INFO]: Saving worlds
+[16:01:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[16:01:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[16:01:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[16:01:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:01:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:01:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:01:36] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

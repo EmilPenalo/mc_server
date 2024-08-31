@@ -1,5 +1,5 @@
-[22:37:31] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.16.0
-[22:37:31] [main/INFO]: Loading 46 mods:
+[21:10:03] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.16.0
+[21:10:04] [main/INFO]: Loading 46 mods:
 	- advancedbackups 3.6.3
 	- chunky 1.4.16
 	- fabric-api 0.102.0+1.21.1
@@ -58,51 +58,58 @@
 	- lithium 0.13.0
 	- minecraft 1.21.1
 	- modernfix 5.19.3+mc1.21.1
-[22:37:31] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Emil/Documents/mc_server/libraries/net/fabricmc/sponge-mixin/0.15.0+mixin.0.8.7/sponge-mixin-0.15.0+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[22:37:31] [main/INFO]: Compatibility level set to JAVA_17
-[22:37:31] [main/INFO]: Compatibility level set to JAVA_21
-[22:37:31] [main/INFO]: Loaded configuration file for Lithium: 144 options available, 1 override(s) found
-[22:37:32] [main/INFO]: Loaded configuration file for ModernFix 5.19.3+mc1.21.1: 54 options available, 0 override(s) found
-[22:37:32] [main/INFO]: Applying Nashorn fix
-[22:37:32] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
-[22:37:32] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.0).
-[22:37:35] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[22:37:35] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
-[22:37:35] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[22:37:36] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
-[22:37:40] [main/INFO]: Vanilla bootstrap took 5522 milliseconds
-[22:37:40] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[22:37:40] [main/WARN]: Missing metadata in pack file/VanillaTweaks_c477362_MC1.21.0.zip
-[22:37:42] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/husk}.pools[2].entries[0]: Unknown loot table called husks_drop_sand:entities/husk
-[22:37:42] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/villager}.pools[2].entries[0]: Unknown loot table called villager_death:entities/villager
-[22:37:42] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/bat}.pools[2].entries[0]: Unknown loot table called bat_membranes:entities/bat
-[22:37:42] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/player}.pools[1].entries[0]: Unknown loot table called graves:entities/player
-[22:37:43] [main/INFO]: Loaded 1491 recipes
-[22:37:43] [main/INFO]: Loaded 1617 advancements
-[22:37:43] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 1.635 ms
-[22:37:43] [Server thread/INFO]: Config loaded!!
-[22:37:43] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[22:37:43] [Server thread/INFO]: Loading properties
-[22:37:43] [Server thread/INFO]: Default game type: SURVIVAL
-[22:37:43] [Server thread/INFO]: Generating keypair
-[22:37:43] [Server thread/INFO]: Starting Minecraft server on *:25565
-[22:37:43] [Server thread/INFO]: Using default channel type
-[22:37:44] [Server thread/INFO]: Preparing level "world"
-[22:37:44] [Server thread/WARN]: Method overwrite conflict for removeIf in modernfix-common.mixins.json:bugfix.paper_chunk_patches.SortedArraySetMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.collections.chunk_tickets.SortedArraySetMixin. Skipping method.
-[22:37:44] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[22:37:45] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[22:37:45] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[22:37:45] [Server thread/INFO]: Time elapsed: 801 ms
-[22:37:45] [Server thread/INFO]: Done (1.276s)! For help, type "help"
-[22:37:45] [Server thread/WARN]: Dedicated server took 15.673 seconds to load
-[22:37:50] [Server thread/INFO]: Stopping the server
-[22:37:50] [Server thread/INFO]: Stopping server
-[22:37:50] [Server thread/INFO]: Saving players
-[22:37:50] [Server thread/INFO]: Saving worlds
-[22:37:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[22:37:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[22:37:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[22:37:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[22:37:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[22:37:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:37:50] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21:10:04] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/18094/mc_server/libraries/net/fabricmc/sponge-mixin/0.15.0+mixin.0.8.7/sponge-mixin-0.15.0+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[21:10:04] [main/INFO]: Compatibility level set to JAVA_17
+[21:10:05] [main/INFO]: Compatibility level set to JAVA_21
+[21:10:05] [main/INFO]: Loaded configuration file for Lithium: 144 options available, 1 override(s) found
+[21:10:06] [main/INFO]: Loaded configuration file for ModernFix 5.19.3+mc1.21.1: 54 options available, 0 override(s) found
+[21:10:06] [main/INFO]: Applying Nashorn fix
+[21:10:07] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[21:10:08] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.0).
+[21:10:18] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[21:10:18] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
+[21:10:18] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[21:10:20] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[21:10:30] [main/INFO]: Vanilla bootstrap took 16813 milliseconds
+[21:10:31] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[21:10:32] [main/WARN]: Missing data pack file/anti creeper grief v1.1.8 (MC 1.21-1.21.1).zip
+[21:10:32] [main/INFO]: Found new data pack file/PK_No_Creeper_Grief_V.3.0.1_MC_1.21.zip, loading it automatically
+[21:10:32] [main/INFO]: Found new data pack file/VanillaTweaks_c204600_MC1.21.0.zip, loading it automatically
+[21:10:36] [Worker-Main-1/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/husk}.pools[2].entries[0]: Unknown loot table called husks_drop_sand:entities/husk
+[21:10:36] [Worker-Main-1/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/villager}.pools[2].entries[0]: Unknown loot table called villager_death:entities/villager
+[21:10:36] [Worker-Main-1/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/bat}.pools[2].entries[0]: Unknown loot table called bat_membranes:entities/bat
+[21:10:36] [Worker-Main-1/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/player}.pools[1].entries[0]: Unknown loot table called graves:entities/player
+[21:10:40] [main/INFO]: Loaded 1592 recipes
+[21:10:41] [main/INFO]: Loaded 1623 advancements
+[21:10:41] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: minecraft:candle
+[21:10:41] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 12.56 ms
+[21:10:41] [Server thread/INFO]: Config loaded!!
+[21:10:41] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[21:10:41] [Server thread/INFO]: Loading properties
+[21:10:41] [Server thread/INFO]: Default game type: SURVIVAL
+[21:10:41] [Server thread/INFO]: Generating keypair
+[21:10:42] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:10:42] [Server thread/INFO]: Using default channel type
+[21:10:43] [Server thread/INFO]: Preparing level "world"
+[21:10:44] [Server thread/WARN]: Method overwrite conflict for removeIf in modernfix-common.mixins.json:bugfix.paper_chunk_patches.SortedArraySetMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.collections.chunk_tickets.SortedArraySetMixin. Skipping method.
+[21:10:45] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:10:46] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:10:46] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:10:46] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:10:46] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:10:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:10:47] [Worker-Main-1/INFO]: Preparing spawn area: 8%
+[21:10:48] [Server thread/INFO]: Time elapsed: 2899 ms
+[21:10:48] [Server thread/INFO]: Done (4.819s)! For help, type "help"
+[21:10:48] [Server thread/WARN]: Dedicated server took 48.112 seconds to load
+[21:11:22] [Server thread/INFO]: Stopping the server
+[21:11:22] [Server thread/INFO]: Stopping server
+[21:11:22] [Server thread/INFO]: Saving players
+[21:11:22] [Server thread/INFO]: Saving worlds
+[21:11:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21:11:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[21:11:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[21:11:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:11:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:11:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:11:23] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

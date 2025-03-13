@@ -1,7 +1,238 @@
-[22:55:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2414ms or 48 ticks behind
-[23:03:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2153ms or 43 ticks behind
-[23:03:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4708ms or 94 ticks behind
-[23:05:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2016ms or 40 ticks behind
-[23:10:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2129ms or 42 ticks behind
-[23:15:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5023ms or 100 ticks behind
-[23:21:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2191ms or 43 ticks behind
+[17:15:29] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.16.0
+[17:15:29] [main/WARN]: Warnings were found!
+ - Mod 'Dynamic Lights' (dynamiclights) 1.8.3+mod recommends any version of modmenu, which is missing!
+	 - You should install any version of modmenu for the optimal experience.
+ - Mod 'Dynamic Lights' (dynamiclights) 1.8.3+mod recommends any version of modmenu-badges-lib, which is missing!
+	 - You should install any version of modmenu-badges-lib for the optimal experience.
+ - Mod 'Dynamic Lights' (dynamiclights) 1.8.3+mod recommends any version of midnightlib, which is missing!
+	 - You should install any version of midnightlib for the optimal experience.
+[17:15:29] [main/INFO]: Loading 47 mods:
+	- advancedbackups 3.6.3
+	- chunky 1.4.16
+	- dynamiclights 1.8.3+mod
+	- fabric-api 0.102.0+1.21.1
+	   |-- fabric-api-base 0.4.42+6573ed8c6a
+	   |-- fabric-api-lookup-api-v1 1.6.68+b55973446a
+	   |-- fabric-biome-api-v1 13.0.29+5bd9f1bc6a
+	   |-- fabric-block-api-v1 1.0.22+0af3f5a76a
+	   |-- fabric-block-view-api-v2 1.0.10+6573ed8c6a
+	   |-- fabric-blockrenderlayer-v1 1.1.52+0af3f5a76a
+	   |-- fabric-client-tags-api-v1 1.1.15+6573ed8c6a
+	   |-- fabric-command-api-v1 1.2.49+f71b366f6a
+	   |-- fabric-command-api-v2 2.2.28+6ced4dd96a
+	   |-- fabric-commands-v0 0.2.66+df3654b36a
+	   |-- fabric-content-registries-v0 8.0.16+b55973446a
+	   |-- fabric-convention-tags-v1 2.0.19+7f945d5b6a
+	   |-- fabric-convention-tags-v2 2.5.0+c5e2b5c66a
+	   |-- fabric-crash-report-info-v1 0.2.29+0af3f5a76a
+	   |-- fabric-data-attachment-api-v1 1.1.27+1daea2156a
+	   |-- fabric-data-generation-api-v1 20.2.16+16c4ae256a
+	   |-- fabric-dimensions-v1 4.0.0+6fc22b996a
+	   |-- fabric-entity-events-v1 1.6.12+6fc22b996a
+	   |-- fabric-events-interaction-v0 0.7.12+ba9dae066a
+	   |-- fabric-game-rule-api-v1 1.0.53+6ced4dd96a
+	   |-- fabric-item-api-v1 11.0.0+afdfc9216a
+	   |-- fabric-item-group-api-v1 4.1.4+780172706a
+	   |-- fabric-key-binding-api-v1 1.0.47+0af3f5a76a
+	   |-- fabric-keybindings-v0 0.2.45+df3654b36a
+	   |-- fabric-lifecycle-events-v1 2.3.12+6c1df3606a
+	   |-- fabric-loot-api-v2 3.0.14+3f89f5a56a
+	   |-- fabric-loot-api-v3 1.0.2+3f89f5a56a
+	   |-- fabric-message-api-v1 6.0.13+6573ed8c6a
+	   |-- fabric-model-loading-api-v1 2.0.0+fe474d6b6a
+	   |-- fabric-networking-api-v1 4.2.2+60c3209b6a
+	   |-- fabric-object-builder-api-v1 15.2.0+40875a936a
+	   |-- fabric-particles-v1 4.0.2+6573ed8c6a
+	   |-- fabric-recipe-api-v1 5.0.12+650897126a
+	   |-- fabric-registry-sync-v0 5.1.2+60c3209b6a
+	   |-- fabric-renderer-api-v1 3.4.0+c705a49c6a
+	   |-- fabric-renderer-indigo 1.7.0+c705a49c6a
+	   |-- fabric-renderer-registries-v1 3.2.68+df3654b36a
+	   |-- fabric-rendering-data-attachment-v1 0.3.48+73761d2e6a
+	   |-- fabric-rendering-fluids-v1 3.1.6+1daea2156a
+	   |-- fabric-rendering-v0 1.1.71+df3654b36a
+	   |-- fabric-rendering-v1 5.0.5+df16efd06a
+	   |-- fabric-resource-conditions-api-v1 4.3.0+8dc279b16a
+	   |-- fabric-resource-loader-v0 1.3.0+565991296a
+	   |-- fabric-screen-api-v1 2.0.24+b55973446a
+	   |-- fabric-screen-handler-api-v1 1.3.86+b55973446a
+	   |-- fabric-sound-api-v1 1.0.23+6573ed8c6a
+	   |-- fabric-transfer-api-v1 5.1.16+3dccd3436a
+	   \-- fabric-transitive-access-wideners-v1 6.1.0+1daea2156a
+	- fabricloader 0.16.0
+	   \-- mixinextras 0.4.0
+	- ferritecore 7.0.0
+	- java 21
+	- lithium 0.13.0
+	- minecraft 1.21.1
+	- modernfix 5.19.3+mc1.21.1
+[17:15:30] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Emil/Documents/Minecraft/mc_server/libraries/net/fabricmc/sponge-mixin/0.15.0+mixin.0.8.7/sponge-mixin-0.15.0+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[17:15:30] [main/INFO]: Compatibility level set to JAVA_17
+[17:15:30] [main/INFO]: Compatibility level set to JAVA_21
+[17:15:30] [main/INFO]: Loaded configuration file for Lithium: 144 options available, 1 override(s) found
+[17:15:30] [main/INFO]: Loaded configuration file for ModernFix 5.19.3+mc1.21.1: 54 options available, 0 override(s) found
+[17:15:30] [main/INFO]: Applying Nashorn fix
+[17:15:31] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[17:15:31] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.0).
+[17:15:34] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[17:15:34] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
+[17:15:34] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[17:15:35] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[17:15:39] [main/INFO]: Vanilla bootstrap took 5643 milliseconds
+[17:15:39] [main/INFO]: [Dynamic Lights] Loaded Dynamic Lights by Tschipcraft successfully!
+[17:15:39] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[17:15:41] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/husk}.pools[2].entries[0]: Unknown loot table called husks_drop_sand:entities/husk
+[17:15:41] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/villager}.pools[2].entries[0]: Unknown loot table called villager_death:entities/villager
+[17:15:41] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/bat}.pools[2].entries[0]: Unknown loot table called bat_membranes:entities/bat
+[17:15:41] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/player}.pools[1].entries[0]: Unknown loot table called graves:entities/player
+[17:15:42] [main/INFO]: Loaded 1592 recipes
+[17:15:42] [main/INFO]: Loaded 1623 advancements
+[17:15:42] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: minecraft:candle
+[17:15:42] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 2.037 ms
+[17:15:42] [Server thread/INFO]: Config loaded!!
+[17:15:42] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[17:15:42] [Server thread/INFO]: Loading properties
+[17:15:42] [Server thread/INFO]: Default game type: SURVIVAL
+[17:15:42] [Server thread/INFO]: Generating keypair
+[17:15:42] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:15:42] [Server thread/INFO]: Using default channel type
+[17:15:43] [Server thread/INFO]: Preparing level "world"
+[17:15:43] [Server thread/WARN]: Method overwrite conflict for removeIf in modernfix-common.mixins.json:bugfix.paper_chunk_patches.SortedArraySetMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.collections.chunk_tickets.SortedArraySetMixin. Skipping method.
+[17:15:43] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:15:44] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[17:15:44] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[17:15:44] [Server thread/INFO]: Time elapsed: 1080 ms
+[17:15:44] [Server thread/INFO]: Done (1.560s)! For help, type "help"
+[17:15:44] [Server thread/WARN]: Dedicated server took 16.366 seconds to load
+[17:20:02] [User Authenticator #1/INFO]: UUID of player Craashh is a4804ba4-2f08-4537-aed7-8b13cea3704b
+[17:20:04] [Server thread/INFO]: Craashh[/148.101.208.13:54624] logged in with entity id 117 at (-768.0599111903472, -38.0, -10.768803870778509)
+[17:20:04] [Server thread/INFO]: Craashh joined the game
+[17:20:17] [Server thread/INFO]: Craashh lost connection: Disconnected
+[17:20:17] [Server thread/INFO]: Craashh left the game
+[17:20:44] [Server thread/WARN]: 
+
+***************************************
+SAVING DISABLED - PREPARING FOR BACKUP!
+***************************************
+
+[17:20:44] [Server thread/WARN]: 
+
+*************************************
+SAVE COMPLETE - PREPARING FOR BACKUP!
+*************************************
+
+[17:20:44] [AB Active Backup Thread/INFO]: Preparing differential backup with name: backup_2025-03-12_17-20-44
+[17:20:49] [Server thread/INFO]: Backup in progress : 27%
+[17:20:54] [Server thread/INFO]: Backup in progress : 76%
+[17:20:59] [Server thread/INFO]: Backup in progress : 81%
+[17:21:04] [Server thread/INFO]: Backup in progress : 88%
+[17:21:09] [Server thread/INFO]: Backup in progress : 92%
+[17:21:13] [AB Active Backup Thread/INFO]: [STDOUT]: Snapshot : false
+[17:21:13] [AB Active Backup Thread/INFO]: [STDOUT]: Beginning purge checks : .\backups\world\differential
+[17:21:13] [AB Active Backup Thread/INFO]: [STDOUT]: Backup count check disabled
+[17:21:13] [Server thread/WARN]: 
+
+*********************************
+SAVING ENABLED - BACKUP COMPLETE!
+*********************************
+
+[17:21:47] [User Authenticator #2/INFO]: UUID of player Emix118 is 78b9240f-f7f6-4b0f-a98d-1fc588e902af
+[17:21:48] [Server thread/INFO]: Emix118[/127.0.0.1:51189] logged in with entity id 419 at (-778.6052050475764, -42.0, -10.162640340909226)
+[17:21:48] [Server thread/INFO]: Emix118 joined the game
+[17:25:26] [User Authenticator #3/INFO]: UUID of player Craashh is a4804ba4-2f08-4537-aed7-8b13cea3704b
+[17:25:27] [Server thread/INFO]: Craashh[/148.101.208.13:54837] logged in with entity id 1762 at (-768.5759415706781, -38.0, -10.93899782303667)
+[17:25:27] [Server thread/INFO]: Craashh joined the game
+[17:30:01] [User Authenticator #4/INFO]: UUID of player Maquililo is 45b3d622-c763-4d3c-b6b0-1eebcfe79f01
+[17:30:02] [Server thread/INFO]: Maquililo[/181.37.233.207:50397] logged in with entity id 3554 at (-779.6999999880791, -42.0, -9.786998682264853)
+[17:30:02] [Server thread/INFO]: Maquililo joined the game
+[17:31:24] [Server thread/INFO]: Maquililo lost connection: Disconnected
+[17:31:24] [Server thread/INFO]: Maquililo left the game
+[17:34:24] [User Authenticator #5/INFO]: UUID of player Maquililo is 45b3d622-c763-4d3c-b6b0-1eebcfe79f01
+[17:34:24] [Server thread/INFO]: Maquililo[/181.37.233.207:52552] logged in with entity id 7622 at (-779.6999999880791, -42.0, -9.786998682264853)
+[17:34:24] [Server thread/INFO]: Maquililo joined the game
+[17:34:48] [Server thread/WARN]: Horse (vehicle of Craashh) moved wrongly! 0.2718929865449695
+[17:34:48] [Server thread/WARN]: Horse (vehicle of Craashh) moved wrongly! 0.27734057965244574
+[17:35:45] [Server thread/INFO]: Maquililo lost connection: Disconnected
+[17:35:45] [Server thread/INFO]: Maquililo left the game
+[17:36:28] [User Authenticator #6/INFO]: UUID of player Maquililo is 45b3d622-c763-4d3c-b6b0-1eebcfe79f01
+[17:36:29] [Server thread/INFO]: Maquililo[/181.37.233.207:52957] logged in with entity id 9866 at (-779.6999999880791, -42.0, -9.786998682264853)
+[17:36:29] [Server thread/INFO]: Maquililo joined the game
+[17:36:47] [Server thread/WARN]: Horse (vehicle of Craashh) moved wrongly! 0.2623012249121075
+[17:36:48] [Server thread/WARN]: Horse (vehicle of Craashh) moved wrongly! 0.2631495014739471
+[17:37:17] [Server thread/INFO]: Maquililo lost connection: Disconnected
+[17:37:17] [Server thread/INFO]: Maquililo left the game
+[17:37:36] [Server thread/WARN]: Horse (vehicle of Craashh) moved wrongly! 0.26794457810484573
+[17:37:37] [Server thread/WARN]: Horse (vehicle of Craashh) moved wrongly! 0.47126152418337597
+[17:40:13] [User Authenticator #7/INFO]: UUID of player Maquililo is 45b3d622-c763-4d3c-b6b0-1eebcfe79f01
+[17:40:13] [Server thread/INFO]: Maquililo[/181.37.233.207:53111] logged in with entity id 12584 at (-779.6999999880791, -42.0, -9.786998682264853)
+[17:40:13] [Server thread/INFO]: Maquililo joined the game
+[17:40:50] [Server thread/WARN]: Horse (vehicle of Craashh) moved wrongly! 0.2539395831231559
+[17:41:24] [Server thread/WARN]: Horse (vehicle of Craashh) moved wrongly! 0.27925108616284433
+[17:41:24] [Server thread/WARN]: Horse (vehicle of Craashh) moved wrongly! 0.5576571963183596
+[17:41:37] [Server thread/WARN]: Horse (vehicle of Craashh) moved wrongly! 0.26920436533634984
+[17:41:58] [Server thread/WARN]: Horse (vehicle of Craashh) moved wrongly! 0.31921740669611154
+[17:43:51] [Server thread/WARN]: Horse (vehicle of Craashh) moved wrongly! 0.26442231787746096
+[17:43:51] [Server thread/WARN]: Horse (vehicle of Craashh) moved wrongly! 0.3832522843436781
+[17:59:40] [Server thread/INFO]: <Maquililo> ASdsaASDASDasdads
+[17:59:42] [Server thread/INFO]: <Craashh> HOLaaaaa sfdsdjDIJDIJFI
+[18:04:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-754, y=91, z=0} class_2338{x=-754, y=90, z=1}
+[18:04:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-754, y=91, z=0} class_2338{x=-754, y=90, z=1}
+[18:04:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-754, y=91, z=0} class_2338{x=-754, y=90, z=1}
+[18:04:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-754, y=91, z=0} class_2338{x=-754, y=90, z=1}
+[18:04:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-754, y=91, z=0} class_2338{x=-754, y=90, z=1}
+[18:04:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-754, y=91, z=0} class_2338{x=-754, y=90, z=1}
+[18:04:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-756, y=89, z=5} class_2338{x=-756, y=90, z=6}
+[18:04:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-756, y=89, z=5} class_2338{x=-756, y=90, z=6}
+[18:04:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-756, y=89, z=5} class_2338{x=-756, y=90, z=6}
+[18:04:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-756, y=89, z=5} class_2338{x=-756, y=90, z=6}
+[18:05:41] [Server thread/WARN]: Horse (vehicle of Craashh) moved wrongly! 0.26249046655414077
+[18:05:41] [Server thread/WARN]: Horse (vehicle of Craashh) moved wrongly! 0.3371779284407239
+[18:06:13] [Server thread/WARN]: Horse (vehicle of Craashh) moved wrongly! 0.2708115097334485
+[18:06:13] [Server thread/WARN]: Horse (vehicle of Craashh) moved wrongly! 0.2749127068710777
+[18:06:33] [Server thread/WARN]: Horse (vehicle of Craashh) moved wrongly! 0.2944163396653039
+[18:21:13] [Server thread/WARN]: 
+
+***************************************
+SAVING DISABLED - PREPARING FOR BACKUP!
+***************************************
+
+[18:21:13] [Server thread/WARN]: 
+
+*************************************
+SAVE COMPLETE - PREPARING FOR BACKUP!
+*************************************
+
+[18:21:13] [AB Active Backup Thread/INFO]: Preparing differential backup with name: backup_2025-03-12_18-21-13
+[18:21:18] [Server thread/INFO]: Backup in progress : 87%
+[18:21:18] [AB Active Backup Thread/INFO]: [STDOUT]: Snapshot : false
+[18:21:18] [AB Active Backup Thread/INFO]: [STDOUT]: Beginning purge checks : .\backups\world\differential
+[18:21:18] [AB Active Backup Thread/INFO]: [STDOUT]: Backup count check disabled
+[18:21:18] [Server thread/WARN]: 
+
+*********************************
+SAVING ENABLED - BACKUP COMPLETE!
+*********************************
+
+[18:41:33] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-113, y=49, z=1} class_2338{x=-113, y=50, z=1}
+[18:52:57] [Server thread/WARN]: Horse (vehicle of Craashh) moved wrongly! 0.49105523568073295
+[18:57:47] [Server thread/INFO]: Craashh has made the advancement [Cover Me with Diamonds]
+[19:01:09] [Server thread/WARN]: Horse (vehicle of Craashh) moved wrongly! 0.43785541281795304
+[19:05:27] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-769, y=99, z=-99} class_2338{x=-768, y=101, z=-101}
+[19:05:54] [Server thread/INFO]: Maquililo lost connection: Disconnected
+[19:05:54] [Server thread/INFO]: Maquililo left the game
+[19:06:14] [Server thread/INFO]: Craashh lost connection: Disconnected
+[19:06:14] [Server thread/INFO]: Craashh left the game
+[19:06:33] [Server thread/INFO]: [Emix118: Saved the game]
+[19:06:34] [Server thread/INFO]: Emix118 lost connection: Disconnected
+[19:06:34] [Server thread/INFO]: Emix118 left the game
+[19:06:49] [Server thread/INFO]: Stopping the server
+[19:06:49] [Server thread/INFO]: Stopping server
+[19:06:49] [Server thread/INFO]: Saving players
+[19:06:49] [Server thread/INFO]: Saving worlds
+[19:06:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19:06:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[19:06:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[19:06:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:06:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:06:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:06:49] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
